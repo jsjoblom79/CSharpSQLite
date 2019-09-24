@@ -9,7 +9,7 @@ namespace CreateTable //TODO: update namespace
 {
     public class CreateTable
     {
-
+        //Alternative to Entity Framework for SQLite. Need to add error handling.
         public static string AddTable(Type type)
         {
             StringBuilder query = new StringBuilder();
